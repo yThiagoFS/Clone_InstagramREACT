@@ -1,0 +1,45 @@
+
+
+.next__button{
+    z-index: 100;
+    position:absolute;
+    left:-200px;
+    width:30px;
+    height:30px;
+    
+}
+.next__button .next{
+    z-index: 50;
+    width:90%;
+    height:90%;
+    position:absolute;
+    top:0;
+    transform: translateY(-50%);
+    left:700px;
+    color:rgba(0, 0, 0, 0.503);
+    opacity:1;
+    background-color:white;
+    border-radius:50%;
+}
+.prev__button{
+    z-index: 100;
+    position:absolute;
+    left:-200px;
+    width:30px;
+    height:30px;
+    display:none;
+}
+
+.prev__button .prev{
+    z-index: 50;
+    width:90%;
+    height:90%;
+    position:absolute;
+    top:0;
+    transform: translateY(-50%);
+    left:225px;
+    color:rgba(0, 0, 0, 0.503);
+    opacity:1;
+    background-color:white;
+    border-radius:50%;
+}
